@@ -45,7 +45,8 @@ runrightfast-logging-service</panel_attributes>
       <w>270</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Template Project&gt;&gt;
+    <panel_attributes>bg=orange
+&lt;&lt;Template Project&gt;&gt;
 runrightfast-hapi-plugin-template</panel_attributes>
     <additional_attributes/>
   </element>
@@ -57,7 +58,8 @@ runrightfast-hapi-plugin-template</panel_attributes>
       <w>210</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Server&gt;
+    <panel_attributes>bg=yellow
+&lt;&lt;Server&gt;
 runrightfast-hapi-server</panel_attributes>
     <additional_attributes/>
   </element>
@@ -69,7 +71,8 @@ runrightfast-hapi-server</panel_attributes>
       <w>250</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Gateway Server&gt;&gt;
+    <panel_attributes>bg=red
+&lt;&lt;Gateway Server&gt;&gt;
 runrightfast-api-gateway-server</panel_attributes>
     <additional_attributes/>
   </element>
@@ -81,7 +84,8 @@ runrightfast-api-gateway-server</panel_attributes>
       <w>210</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Server&gt;
+    <panel_attributes>bg=green
+&lt;&lt;Server&gt;
 runrightfast-logging-server</panel_attributes>
     <additional_attributes/>
   </element>
@@ -275,5 +279,63 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>30;90;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>870</x>
+      <y>680</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Library&gt;&gt;
+runrightfast-auth-service</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>700</x>
+      <y>690</y>
+      <w>290</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>30;150;270;150;270;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>920</x>
+      <y>930</y>
+      <w>250</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>bg=blue
+&lt;&lt;NOSQL DB&gt;&gt;
+Couchbase</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1010</x>
+      <y>690</y>
+      <w>50</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>30;240;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1050</x>
+      <y>560</y>
+      <w>50</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>30;370;30;30</additional_attributes>
   </element>
 </diagram>
