@@ -425,7 +425,7 @@ runrightfast-rest-client</panel_attributes>
       <w>300</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Hapi Proxy Plugin&gt;&gt;
+    <panel_attributes>&lt;&lt;Hapi Plugin&gt;&gt;
 runrightfast-process-monitor-hapi-plugin</panel_attributes>
     <additional_attributes/>
   </element>
