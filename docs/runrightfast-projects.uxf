@@ -4,7 +4,7 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>370</x>
+      <x>320</x>
       <y>570</y>
       <w>210</w>
       <h>40</h>
@@ -16,7 +16,7 @@ runrightfast-logging-client</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>370</x>
+      <x>320</x>
       <y>840</y>
       <w>210</w>
       <h>40</h>
@@ -28,7 +28,7 @@ runrightfast-commons</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>370</x>
+      <x>320</x>
       <y>470</y>
       <w>210</w>
       <h>40</h>
@@ -40,7 +40,7 @@ runrightfast-logging-service</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>340</x>
+      <x>290</x>
       <y>950</y>
       <w>270</w>
       <h>40</h>
@@ -53,7 +53,7 @@ runrightfast-hapi-plugin-template</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>350</x>
+      <x>300</x>
       <y>60</y>
       <w>210</w>
       <h>40</h>
@@ -66,7 +66,7 @@ runrightfast-hapi-server</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>180</x>
+      <x>130</x>
       <y>200</y>
       <w>250</w>
       <h>40</h>
@@ -79,7 +79,7 @@ runrightfast-api-gateway-server</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>470</x>
+      <x>420</x>
       <y>200</y>
       <w>210</w>
       <h>40</h>
@@ -92,7 +92,7 @@ runrightfast-logging-server</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>500</x>
+      <x>450</x>
       <y>70</y>
       <w>50</w>
       <h>150</h>
@@ -103,7 +103,7 @@ runrightfast-logging-server</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>360</x>
+      <x>310</x>
       <y>70</y>
       <w>50</w>
       <h>150</h>
@@ -114,7 +114,7 @@ runrightfast-logging-server</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>710</x>
+      <x>660</x>
       <y>570</y>
       <w>240</w>
       <h>40</h>
@@ -126,7 +126,7 @@ runrightfast-couchbase-logger</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>100</x>
+      <x>50</x>
       <y>300</y>
       <w>340</w>
       <h>40</h>
@@ -138,7 +138,7 @@ runrightfast-logging-server-proxy-hapi-plugin</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
+      <x>390</x>
       <y>480</y>
       <w>50</w>
       <h>110</h>
@@ -149,7 +149,7 @@ runrightfast-logging-server-proxy-hapi-plugin</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>470</x>
+      <x>420</x>
       <y>300</y>
       <w>300</w>
       <h>40</h>
@@ -161,7 +161,7 @@ runrightfast-logging-service-hapi-plugin</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>330</x>
+      <x>280</x>
       <y>740</y>
       <w>290</w>
       <h>40</h>
@@ -173,7 +173,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>550</x>
+      <x>500</x>
       <y>290</y>
       <w>550</w>
       <h>590</h>
@@ -184,7 +184,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>490</x>
+      <x>440</x>
       <y>310</y>
       <w>50</w>
       <h>180</h>
@@ -195,7 +195,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
+      <x>140</x>
       <y>460</y>
       <w>200</w>
       <h>420</h>
@@ -206,7 +206,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
+      <x>140</x>
       <y>310</y>
       <w>200</w>
       <h>570</h>
@@ -217,7 +217,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>550</x>
+      <x>500</x>
       <y>210</y>
       <w>50</w>
       <h>110</h>
@@ -228,7 +228,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>550</x>
+      <x>500</x>
       <y>190</y>
       <w>550</w>
       <h>690</h>
@@ -239,7 +239,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>450</x>
+      <x>400</x>
       <y>850</y>
       <w>50</w>
       <h>120</h>
@@ -250,7 +250,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>550</x>
+      <x>500</x>
       <y>780</y>
       <w>590</w>
       <h>100</h>
@@ -261,7 +261,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>240</x>
+      <x>190</x>
       <y>210</y>
       <w>50</w>
       <h>110</h>
@@ -272,7 +272,7 @@ runrightfast-rest-auth-hawk-interceptor</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>730</x>
+      <x>680</x>
       <y>700</y>
       <w>190</w>
       <h>40</h>
@@ -284,7 +284,7 @@ runrightfast-auth-service</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>550</x>
+      <x>500</x>
       <y>710</y>
       <w>300</w>
       <h>170</h>
@@ -295,7 +295,7 @@ runrightfast-auth-service</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>780</x>
+      <x>730</x>
       <y>950</y>
       <w>250</w>
       <h>40</h>
@@ -308,7 +308,7 @@ Couchbase</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>870</x>
+      <x>820</x>
       <y>710</y>
       <w>50</w>
       <h>260</h>
@@ -319,7 +319,7 @@ Couchbase</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>910</x>
+      <x>860</x>
       <y>580</y>
       <w>50</w>
       <h>390</h>
@@ -330,19 +330,20 @@ Couchbase</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1120</x>
+      <x>1070</x>
       <y>790</y>
-      <w>240</w>
+      <w>180</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>&lt;&lt;Library&gt;&gt;
-runrightfast-couchbase-logger</panel_attributes>
+    <panel_attributes>bg=blue
+&lt;&lt;Library&gt;&gt;
+runrightfast-couchbase</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>920</x>
+      <x>870</x>
       <y>560</y>
       <w>340</w>
       <h>250</h>
@@ -353,7 +354,7 @@ runrightfast-couchbase-logger</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>890</x>
+      <x>840</x>
       <y>690</y>
       <w>370</w>
       <h>120</h>
@@ -364,7 +365,7 @@ runrightfast-couchbase-logger</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>370</x>
+      <x>320</x>
       <y>660</y>
       <w>210</w>
       <h>40</h>
@@ -376,7 +377,7 @@ runrightfast-rest-client</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
+      <x>390</x>
       <y>580</y>
       <w>50</w>
       <h>100</h>
@@ -387,7 +388,7 @@ runrightfast-rest-client</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>440</x>
+      <x>390</x>
       <y>670</y>
       <w>50</w>
       <h>90</h>
@@ -398,7 +399,7 @@ runrightfast-rest-client</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
+      <x>140</x>
       <y>650</y>
       <w>200</w>
       <h>230</h>
@@ -409,7 +410,7 @@ runrightfast-rest-client</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>190</x>
+      <x>140</x>
       <y>560</y>
       <w>200</w>
       <h>320</h>
@@ -420,7 +421,7 @@ runrightfast-rest-client</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>620</x>
+      <x>570</x>
       <y>60</y>
       <w>300</w>
       <h>40</h>
@@ -432,7 +433,7 @@ runrightfast-process-monitor-hapi-plugin</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>630</x>
+      <x>580</x>
       <y>70</y>
       <w>50</w>
       <h>150</h>
@@ -443,12 +444,34 @@ runrightfast-process-monitor-hapi-plugin</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>210</x>
+      <x>160</x>
       <y>0</y>
       <w>530</w>
       <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>510;60;510;30;30;30;30;200</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>180</y>
+      <w>280</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>260;390;260;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>180</y>
+      <w>610</w>
+      <h>630</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>590;610;590;30;30;30</additional_attributes>
   </element>
 </diagram>
