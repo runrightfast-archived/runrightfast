@@ -2,7 +2,7 @@ runrightfast
 ============
 
 ### RunRightFast Projects Overview
-<img align="right" src="https://github.com/runrightfast/runrightfast/blob/master/docs/images/runrightfast-layers.png" />
+<img align="right" src="https://raw.github.com/runrightfast/runrightfast/master/docs/images/runrightfast-layers.png" />
 
 ### RunRightFast Architecture
 - [AWS Architecure Overview](https://raw.github.com/runrightfast/runrightfast/master/docs/images/runrightfast-aws-architecture-overview.png)
