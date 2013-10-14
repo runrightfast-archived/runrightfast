@@ -4,8 +4,8 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>790</x>
-      <y>230</y>
+      <x>810</x>
+      <y>240</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -21,8 +21,8 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>790</x>
-      <y>360</y>
+      <x>810</x>
+      <y>370</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>860</x>
-      <y>260</y>
+      <x>880</x>
+      <y>270</y>
       <w>50</w>
       <h>120</h>
     </coordinates>
@@ -49,8 +49,8 @@ m2=0..n</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>1170</x>
-      <y>360</y>
+      <x>1190</x>
+      <y>370</y>
       <w>210</w>
       <h>50</h>
     </coordinates>
@@ -64,8 +64,8 @@ m2=0..n</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>810</x>
-      <y>390</y>
+      <x>830</x>
+      <y>400</y>
       <w>170</w>
       <h>110</h>
     </coordinates>
@@ -78,8 +78,8 @@ depends on
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1240</x>
-      <y>260</y>
+      <x>1260</x>
+      <y>270</y>
       <w>50</w>
       <h>120</h>
     </coordinates>
@@ -89,8 +89,8 @@ depends on
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>970</x>
-      <y>330</y>
+      <x>990</x>
+      <y>340</y>
       <w>220</w>
       <h>70</h>
     </coordinates>
@@ -102,8 +102,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>940</x>
-      <y>600</y>
+      <x>960</x>
+      <y>610</y>
       <w>210</w>
       <h>50</h>
     </coordinates>
@@ -117,8 +117,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>950</x>
-      <y>390</y>
+      <x>970</x>
+      <y>400</y>
       <w>50</w>
       <h>230</h>
     </coordinates>
@@ -128,8 +128,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>940</x>
-      <y>690</y>
+      <x>960</x>
+      <y>700</y>
       <w>210</w>
       <h>220</h>
     </coordinates>
@@ -153,8 +153,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>1020</x>
-      <y>620</y>
+      <x>1040</x>
+      <y>630</y>
       <w>50</w>
       <h>90</h>
     </coordinates>
@@ -164,8 +164,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>680</x>
-      <y>550</y>
+      <x>700</x>
+      <y>560</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -179,8 +179,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>680</x>
-      <y>590</y>
+      <x>700</x>
+      <y>600</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -194,8 +194,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>680</x>
-      <y>630</y>
+      <x>700</x>
+      <y>640</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -209,8 +209,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>680</x>
-      <y>670</y>
+      <x>700</x>
+      <y>680</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -224,8 +224,8 @@ manages</panel_attributes>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>760</x>
-      <y>540</y>
+      <x>780</x>
+      <y>550</y>
       <w>200</w>
       <h>100</h>
     </coordinates>
@@ -237,8 +237,8 @@ m1=0..n
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>760</x>
-      <y>580</y>
+      <x>780</x>
+      <y>590</y>
       <w>200</w>
       <h>60</h>
     </coordinates>
@@ -250,8 +250,8 @@ m1=0..n
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>760</x>
-      <y>590</y>
+      <x>780</x>
+      <y>600</y>
       <w>200</w>
       <h>80</h>
     </coordinates>
@@ -263,8 +263,8 @@ m1=0..n
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
-      <x>760</x>
-      <y>590</y>
+      <x>780</x>
+      <y>600</y>
       <w>200</w>
       <h>110</h>
     </coordinates>
@@ -276,8 +276,8 @@ m1=0..n
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>840</x>
-      <y>30</y>
+      <x>90</x>
+      <y>50</y>
       <w>490</w>
       <h>140</h>
     </coordinates>
@@ -297,8 +297,8 @@ elementstyle=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1230</x>
-      <y>750</y>
+      <x>1210</x>
+      <y>720</y>
       <w>250</w>
       <h>70</h>
     </coordinates>
@@ -315,40 +315,21 @@ The information returned from the PM2 health web api endpoint
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
+    <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>1310</x>
       <y>630</y>
-      <w>90</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>elementstyle=wordwrap
-Machine
---
-+host
-
-
-
-
-</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <type>com.umlet.element.Relation</type>
-    <coordinates>
-      <x>1330</x>
-      <y>650</y>
       <w>50</w>
-      <h>120</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>30;30;30;100</additional_attributes>
+    <additional_attributes>30;30;30;90</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1170</x>
-      <y>230</y>
+      <x>1190</x>
+      <y>240</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -362,8 +343,8 @@ Node
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>640</x>
-      <y>720</y>
+      <x>660</x>
+      <y>730</y>
       <w>210</w>
       <h>60</h>
     </coordinates>
@@ -376,8 +357,8 @@ Node agent logs the events from the log files to the database.</panel_attributes
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>10</x>
-      <y>180</y>
+      <x>40</x>
+      <y>290</y>
       <w>600</w>
       <h>460</h>
     </coordinates>
@@ -408,9 +389,61 @@ Application Directory Structure
      npm install 
      pm2 start ./node_modules/[app] -n [app] -i max
 
-- the node agent will manage the applications' log dir       		
+- the node agent will manage the applications'	 log dir       		
 
   </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>110</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+DeploymentTopology
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1250</x>
+      <y>610</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>NodeInstance
+--
++host
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1140</x>
+      <y>600</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;&gt;
+m1=0..n</panel_attributes>
+    <additional_attributes>30;30;110;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>1270</x>
+      <y>390</y>
+      <w>50</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;220</additional_attributes>
   </element>
 </diagram>
