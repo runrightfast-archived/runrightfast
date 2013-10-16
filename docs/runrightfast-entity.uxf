@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>490</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+Note
+--
++createdOn : Date
++createdBy: String - uuid
++updatedOn : Date
++note : String</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>270</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+Entity
+--
++id: String - uuid
++createdOn : Date
++createdBy: String - uuid
++updatedOn : Date
++updatedBy: String - uuid
++tags: [] - String array
+--
+All objects that will be stored to the database will extend this class.
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>710</x>
+      <y>400</y>
+      <w>50</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;30;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>870</x>
+      <y>500</y>
+      <w>190</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;30;170;30;170;40;170;60;30;60</additional_attributes>
+  </element>
+</diagram>
