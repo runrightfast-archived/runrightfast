@@ -279,9 +279,9 @@ runrightfast-node-agent-server</panel_attributes>
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>50</x>
-      <y>210</y>
+      <y>110</y>
       <w>370</w>
-      <h>580</h>
+      <h>680</h>
     </coordinates>
     <panel_attributes>/Libraries/
 </panel_attributes>
@@ -322,6 +322,30 @@ runrightfast-couchbase-object-schema-registry</panel_attributes>
     <panel_attributes>bg=green
 &lt;&lt;JavaScript&gt;&gt;
 Node.js</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>140</x>
+      <y>190</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Library&gt;&gt;
+runrightfast-elasticsearch</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>130</x>
+      <y>140</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Library&gt;&gt;
+runrightfast-elastic-logger</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
