@@ -37,7 +37,7 @@ runrightfast-[api]-server</panel_attributes>
     </coordinates>
     <panel_attributes>bg=blue
 &lt;&lt;NOSQL DB&gt;&gt;
-Couchbase</panel_attributes>
+elasticsearch</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -578,6 +578,9 @@ Application Directory Structure
 - app logs dir is symlinked to /runrightfast/logs 
   - this allows one to only need to look into one directory for logs files
 - the node agent is configured to be a type of node
+  - the type of node will be based on ENV settings:
+    - RUNRIGHTFAST_NODE_TYPE = runrightfast-api-gateway
+    - RUNRIGHTFAST_NODE_VERSION = 1.1.1
   - it looks up in the db, which ApplicationVersions need to be deployed on this node
     - it will generate a package.json, and place it in the 'apps' dir      
   - application deployment commands:
