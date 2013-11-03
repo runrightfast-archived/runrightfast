@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>780</x>
+      <y>540</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>RestResponse</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>390</x>
+      <y>660</y>
+      <w>150</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>ResponseMetadata
+--
++id
++receivedOn
++processingTime
++requestUri
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>580</x>
+      <y>660</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>data
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>510</x>
+      <y>840</y>
+      <w>120</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Type
+--
++namespace
++version
++type</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>750</x>
+      <y>650</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Action
+--
+-name
+-title
+-method
+-href
+-auth:[]
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>920</x>
+      <y>650</y>
+      <w>100</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Link
+--
++href
++ref
++title
++auth: []</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>470</x>
+      <y>540</y>
+      <w>390</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=meta
+</panel_attributes>
+    <additional_attributes>30;120;30;70;370;70;370;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>540</y>
+      <w>260</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>30;120;30;70;240;70;240;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>430</x>
+      <y>730</y>
+      <w>168</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=dataType</panel_attributes>
+    <additional_attributes>130;110;130;60;30;60;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>760</x>
+      <y>540</y>
+      <w>100</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=actions
+m1=0..n
+</panel_attributes>
+    <additional_attributes>40;110;40;70;80;70;80;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>810</x>
+      <y>540</y>
+      <w>184</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=links
+m1=0..n</panel_attributes>
+    <additional_attributes>160;110;160;70;30;70;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>180</x>
+      <y>840</y>
+      <w>160</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Error
+--
++code
++developerMessage
++userMessage
++moreInfo : uri</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>230</x>
+      <y>730</y>
+      <w>250</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..1
+r1=error</panel_attributes>
+    <additional_attributes>30;110;30;60;230;60;230;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>350</x>
+      <y>840</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>SearchResult
+--
++limit
++offset
++totalCount
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>340</x>
+      <y>730</y>
+      <w>140</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..1
+r1=searchResult</panel_attributes>
+    <additional_attributes>60;110;60;60;120;60;120;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>390</x>
+      <y>140</y>
+      <w>330</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>api.runrightfast.co/data/v{N}/{resource}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Note</type>
+    <coordinates>
+      <x>850</x>
+      <y>840</y>
+      <w>390</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Note..
+bg=blue
+auth: OPTIONAL - specifies the list of auth protocols 
+that are supported</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>930</x>
+      <y>720</y>
+      <w>50</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>30;30;30;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>600</x>
+      <y>730</y>
+      <w>220</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=payloadType
+m1=0..1</panel_attributes>
+    <additional_attributes>30;150;200;150;200;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>820</x>
+      <y>720</y>
+      <w>90</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-</panel_attributes>
+    <additional_attributes>30;30;70;30;70;120</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>390</x>
+      <y>210</y>
+      <w>330</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>api.runrightfast.co/data/v{N}/{resource}/{id}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>850</x>
+      <y>200</y>
+      <w>230</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Partial Response
+--
+?fields=field1,field2,field3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>850</x>
+      <y>110</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Pagination
+--
+?limit=10&amp;offset=0
+--
+default is ?limit=10&amp;offset=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>690</x>
+      <y>200</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..1
+</panel_attributes>
+    <additional_attributes>160;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>690</x>
+      <y>120</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..1
+</panel_attributes>
+    <additional_attributes>160;30;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>690</x>
+      <y>330</y>
+      <w>460</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>api.runrightfast.co/service/v{N}/{operation}/{service}
+--
+POST
+- used to submit a service operation request
+- request is always specified in the request body as a JSON
+
+GET
+- returns the service operation description
+  - includes request and response ObjectSchema
+  - description
+  - link to more info</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>350</x>
+      <y>350</y>
+      <w>300</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>api.runrightfast.co/service/v{N}/{service}
+--
+GET
+-returns the service description
+  - description
+  - link to more info
+  - lists each service operation as a </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>100</y>
+      <w>730</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>300</y>
+      <w>840</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>690</x>
+      <y>130</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..1
+</panel_attributes>
+    <additional_attributes>160;80;30;30</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>150</x>
+      <y>530</y>
+      <w>1130</w>
+      <h>440</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+</diagram>
