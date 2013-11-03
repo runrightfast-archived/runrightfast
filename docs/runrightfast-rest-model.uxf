@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>310</y>
+      <w>340</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+Domain
+--
++name
++description
+--
++resourceHref({resource,version}) : String
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>500</y>
+      <w>190</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+Resource
+--
++name
++version
++objectSchemaType : {
+  +namespace,
+  +version,
+  +type
+ }
++description
++tags:[]
++notes:[]
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>650</x>
+      <y>380</y>
+      <w>90</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=0..n
+m1=resources
+</panel_attributes>
+    <additional_attributes>50;120;50;30</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>770</y>
+      <w>150</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+ResourceAction
+--
++name
++title
++method
++auth:[]
++https
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>650</x>
+      <y>670</y>
+      <w>90</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=0..n
+m1=resources
+</panel_attributes>
+    <additional_attributes>50;100;50;30</additional_attributes>
+  </element>
+</diagram>
