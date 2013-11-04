@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>1320</w>
+      <h>780</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+REST URIs
+--
+POST http://api.runrightfast.co/schema/v{N}/{resource}
+- create a new resource
+- response data : {id:'uuid'}
+- success http status codes : 201
+
+PUT http://api.runrightfast.co/schema/v{N}/{resource}/{id}?merge=true&amp;version=1
+- supports partial update, where only specified fields will be updated
+- partial update is the default - specify merge=false for replace
+- version param is optional - Used for optimistic concurrency control when set. 
+  If the version of the currently indexed document is less-than or equal to the version specified, an error is produced, otherwise the operation is permitted.
+
+GET api.runrightfast.co/schema/v{N}/{resource}/{id}
+
+DELETE api.runrightfast.co/schema/v{N}/{resource}/{id}?version=1
+- version is optional
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
