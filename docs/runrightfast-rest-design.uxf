@@ -5,7 +5,7 @@
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>760</x>
-      <y>590</y>
+      <y>660</y>
       <w>110</w>
       <h>30</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>490</x>
-      <y>930</y>
+      <y>1000</y>
       <w>120</w>
       <h>80</h>
     </coordinates>
@@ -31,7 +31,7 @@
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>380</x>
-      <y>590</y>
+      <y>660</y>
       <w>460</w>
       <h>140</h>
     </coordinates>
@@ -44,7 +44,7 @@ r1=meta
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>480</x>
-      <y>590</y>
+      <y>660</y>
       <w>360</w>
       <h>140</h>
     </coordinates>
@@ -57,7 +57,7 @@ r1=data</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>340</x>
-      <y>770</y>
+      <y>840</y>
       <w>238</w>
       <h>180</h>
     </coordinates>
@@ -69,7 +69,7 @@ r1=dataType</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>740</x>
-      <y>590</y>
+      <y>660</y>
       <w>100</w>
       <h>140</h>
     </coordinates>
@@ -83,7 +83,7 @@ m1=0..n
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>790</x>
-      <y>590</y>
+      <y>660</y>
       <w>294</w>
       <h>140</h>
     </coordinates>
@@ -96,7 +96,7 @@ m1=0..n</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>200</x>
-      <y>770</y>
+      <y>840</y>
       <w>190</w>
       <h>140</h>
     </coordinates>
@@ -109,7 +109,7 @@ r1=error</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>320</x>
-      <y>770</y>
+      <y>840</y>
       <w>114</w>
       <h>140</h>
     </coordinates>
@@ -122,18 +122,18 @@ r1=searchResult</panel_attributes>
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>80</x>
-      <y>150</y>
+      <y>220</y>
       <w>330</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>api.runrightfast.co/data/v{N}/{resource}</panel_attributes>
+    <panel_attributes>/api.runrightfast.co/data/v{N}/{resource}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>940</x>
-      <y>820</y>
+      <y>890</y>
       <w>50</w>
       <h>160</h>
     </coordinates>
@@ -144,7 +144,7 @@ r1=searchResult</panel_attributes>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>580</x>
-      <y>880</y>
+      <y>950</y>
       <w>220</w>
       <h>110</h>
     </coordinates>
@@ -157,18 +157,18 @@ m1=0..1</panel_attributes>
     <type>com.umlet.element.Class</type>
     <coordinates>
       <x>80</x>
-      <y>200</y>
+      <y>270</y>
       <w>330</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>api.runrightfast.co/data/v{N}/{resource}/{id}</panel_attributes>
+    <panel_attributes>/api.runrightfast.co/data/v{N}/{resource}/{id}</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>380</x>
-      <y>190</y>
+      <y>260</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -181,22 +181,22 @@ m1=0..1
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>380</x>
-      <y>70</y>
+      <y>130</y>
       <w>120</w>
-      <h>110</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 m1=0..1
 </panel_attributes>
-    <additional_attributes>100;30;30;90</additional_attributes>
+    <additional_attributes>100;30;30;100</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>70</x>
-      <y>40</y>
-      <w>870</w>
-      <h>300</h>
+      <y>80</y>
+      <w>1250</w>
+      <h>330</h>
     </coordinates>
     <panel_attributes/>
     <additional_attributes/>
@@ -205,7 +205,7 @@ m1=0..1
     <id>UMLClass</id>
     <coordinates>
       <x>70</x>
-      <y>350</y>
+      <y>420</y>
       <w>840</w>
       <h>210</h>
     </coordinates>
@@ -216,7 +216,7 @@ m1=0..1
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>380</x>
-      <y>140</y>
+      <y>210</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
@@ -229,7 +229,7 @@ m1=0..1
     <id>UMLClass</id>
     <coordinates>
       <x>70</x>
-      <y>580</y>
+      <y>650</y>
       <w>1200</w>
       <h>460</h>
     </coordinates>
@@ -240,7 +240,7 @@ m1=0..1
     <id>UMLClass</id>
     <coordinates>
       <x>90</x>
-      <y>890</y>
+      <y>960</y>
       <w>230</w>
       <h>130</h>
     </coordinates>
@@ -260,12 +260,12 @@ Error
     <id>UMLClass</id>
     <coordinates>
       <x>100</x>
-      <y>400</y>
+      <y>470</y>
       <w>320</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>elementstyle=wordwrap
-api.runrightfast.co/service/v{N}/{service}
+/api.runrightfast.co/service/v{N}/{service}
 --
 GET
 -returns the service description
@@ -278,7 +278,7 @@ GET
     <id>UMLClass</id>
     <coordinates>
       <x>450</x>
-      <y>370</y>
+      <y>440</y>
       <w>430</w>
       <h>170</h>
     </coordinates>
@@ -300,7 +300,7 @@ GET
     <id>UMLClass</id>
     <coordinates>
       <x>340</x>
-      <y>890</y>
+      <y>960</y>
       <w>130</w>
       <h>120</h>
     </coordinates>
@@ -309,7 +309,8 @@ SearchResult
 --
 +limit
 +offset
-+totalCount
++total
++count
 --
 - only applies for search requests
 
@@ -320,7 +321,7 @@ SearchResult
     <id>UMLClass</id>
     <coordinates>
       <x>470</x>
-      <y>710</y>
+      <y>780</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -337,7 +338,7 @@ bg=green
     <id>UMLClass</id>
     <coordinates>
       <x>930</x>
-      <y>710</y>
+      <y>780</y>
       <w>320</w>
       <h>140</h>
     </coordinates>
@@ -360,7 +361,7 @@ Link
     <type>com.umlet.element.Relation</type>
     <coordinates>
       <x>840</x>
-      <y>880</y>
+      <y>950</y>
       <w>50</w>
       <h>100</h>
     </coordinates>
@@ -371,7 +372,7 @@ Link
     <id>UMLClass</id>
     <coordinates>
       <x>590</x>
-      <y>710</y>
+      <y>780</y>
       <w>330</w>
       <h>200</h>
     </coordinates>
@@ -395,7 +396,7 @@ Action
     <id>UMLClass</id>
     <coordinates>
       <x>90</x>
-      <y>650</y>
+      <y>720</y>
       <w>210</w>
       <h>30</h>
     </coordinates>
@@ -409,7 +410,7 @@ bg=blue
     <id>UMLClass</id>
     <coordinates>
       <x>840</x>
-      <y>960</y>
+      <y>1030</y>
       <w>380</w>
       <h>50</h>
     </coordinates>
@@ -424,16 +425,18 @@ that are supported</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>480</x>
-      <y>60</y>
-      <w>260</w>
-      <h>70</h>
+      <y>90</y>
+      <w>410</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>elementstyle=wordwrap
-Pagination
+Pagination and Sorting
 --
-?limit=10&amp;offset=0
+?limit=10&amp;offset=0&amp;sort=field1|sortDir,field2|sortOrder
 --
 - default is ?limit=10&amp;offset=0
+- sortDir valid values = asc | desc
+- sortDir is optional and defaults to 'asc'
 
 </panel_attributes>
     <additional_attributes/>
@@ -442,9 +445,9 @@ Pagination
     <id>UMLClass</id>
     <coordinates>
       <x>480</x>
-      <y>140</y>
-      <w>450</w>
-      <h>190</h>
+      <y>200</y>
+      <w>410</w>
+      <h>200</h>
     </coordinates>
     <panel_attributes>elementstyle=wordwrap
 Partial Response
@@ -466,7 +469,7 @@ Partial Response
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>290</y>
+      <y>360</y>
       <w>210</w>
       <h>30</h>
     </coordinates>
@@ -480,7 +483,7 @@ bg=blue
     <id>UMLClass</id>
     <coordinates>
       <x>70</x>
-      <y>350</y>
+      <y>420</y>
       <w>70</w>
       <h>30</h>
     </coordinates>
@@ -493,7 +496,7 @@ Services</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>70</x>
-      <y>40</y>
+      <y>80</y>
       <w>90</w>
       <h>30</h>
     </coordinates>
@@ -506,7 +509,7 @@ Resources</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>70</x>
-      <y>580</y>
+      <y>650</y>
       <w>180</w>
       <h>30</h>
     </coordinates>
@@ -519,12 +522,12 @@ REST Domain Model</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>80</y>
+      <y>150</y>
       <w>330</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>elementstyle=wordwrap
-api.runrightfast.co/schema/v{N}/{resource}
+/api.runrightfast.co/schema/v{N}/{resource}
 --
 - returns the ObjectSchema for the specifed version of the resource
 
@@ -535,7 +538,7 @@ api.runrightfast.co/schema/v{N}/{resource}
     <id>UMLClass</id>
     <coordinates>
       <x>290</x>
-      <y>710</y>
+      <y>780</y>
       <w>150</w>
       <h>90</h>
     </coordinates>
@@ -547,6 +550,30 @@ ResponseMetadata
 +processingTime
 +requestUri
 
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>90</y>
+      <w>410</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>elementstyle=wordwrap
+Common Options
+--
+?timeout=500&amp;verstion=true&amp;raw=false
+--
+- timeout - bounding the request to be executed within the specified time value and bail when expired. Defaults to no timeout.
+- version - Enable/Disable returning version number for each entity - default is false
+  - if true, then each entity is wrapped in an object :
+
+      {version: 1,data:{...}}
+- raw - returns the raw response (from elasticsearch)
 
 
 </panel_attributes>
