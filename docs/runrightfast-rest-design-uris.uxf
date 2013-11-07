@@ -21,21 +21,21 @@ Commons querystring params:
 Common GET querystring params:
 - version=true
 
-POST http://api.runrightfast.co/schema/v{N}/{resource}
+POST http://api.runrightfast.co/v{N}/resources/{resource}
 - create a new resource
 - response data : {id:'uuid'}
 - success http status codes : 201
 
-PUT http://api.runrightfast.co/schema/v{N}/{resource}/{id}?version=1
+PUT http://api.runrightfast.co/v{N}/resources/{resource}/{id}?version=1
 - version param is optional - Used for optimistic concurrency control when set. 
   If the version of the currently indexed document is less-than or equal to the version specified, an error is produced, otherwise the operation is permitted.
 
-PATCH http://api.runrightfast.co/schema/v{N}/{resource}/{id}?&amp;version=1
+PATCH http://api.runrightfast.co/v{N}/resources/{resource}/{id}?&amp;version=1
 - supports partial update, where only specified fields will be updated
 - version param is optional - Used for optimistic concurrency control when set. 
   If the version of the currently indexed document is less-than or equal to the version specified, an error is produced, otherwise the operation is permitted.
 
-GET http://api.runrightfast.co/schema/v{N}/{resource}/{id}
+GET http://api.runrightfast.co/v{N}/resources/{resource}/{id}
 - querystring params:
   - offset=0
   - limit=10
@@ -44,7 +44,7 @@ GET http://api.runrightfast.co/schema/v{N}/{resource}/{id}
   - dataOnly=false
   - actions=true&amp;links=true  
 
-DELETE http://api.runrightfast.co/schema/v{N}/{resource}/{id}?version=1
+DELETE http://api.runrightfast.co/v{N}/resources/{resource}/{id}?version=1
 - version is optional
 
 OPTIONS ???
@@ -53,19 +53,19 @@ HEAD ???
 --
 Services
 -----------
-GET http://api.runrightfast.co/service/v{N}/{service}
+GET http://api.runrightfast.co/v{N}/services/{service}
 -returns the service description
   - description
   - link to more info
   - lists each service operation as an action
 
-GET http://api.runrightfast.co/service/v{N}/{operation}/{service}
+GET http://api.runrightfast.co/v{N}/services/{operation}/{service}
 - returns the service operation description
   - includes request and response ObjectSchema
   - description
   - link to more info
 
-POST http://api.runrightfast.co/service/v{N}/{operation}/{service}
+POST http://api.runrightfast.co/v{N}/services/{operation}/{service}
 - used to submit a service operation request
 - request is always specified in the request body as a JSON</panel_attributes>
     <additional_attributes/>
