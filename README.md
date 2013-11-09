@@ -15,3 +15,4 @@ First install the Sublime Package Control: https://sublime.wbond.net/
 - Git
 - GitGutter
 - SublimeCodeIntel
+- Sublimerge Pro
