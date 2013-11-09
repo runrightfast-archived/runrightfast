@@ -13,3 +13,5 @@ First install the Sublime Package Control: https://sublime.wbond.net/
 - JSHint Gutter
 - JsFormat
 - Git
+- GitGutter
+- SublimeCodeIntel
