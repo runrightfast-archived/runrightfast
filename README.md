@@ -16,3 +16,5 @@ First install the Sublime Package Control: https://sublime.wbond.net/
 - GitGutter
 - SublimeCodeIntel
 - Sublimerge Pro
+- JSONLint
+- Pretty JSON
