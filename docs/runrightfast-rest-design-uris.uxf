@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>20</y>
+      <x>10</x>
+      <y>10</y>
       <w>1320</w>
       <h>780</h>
     </coordinates>
@@ -49,7 +49,13 @@ DELETE http://api.runrightfast.co/v{N}/resources/{resource}/{id}
 - response.data properties: found, id, version
 - returns 404, if the entity did not exist
 
-OPTIONS ???
+OPTIONS http://api.runrightfast.co/v{N}/resources/{resource}/{id}
+- The OPTIONS method represents a request for information about the communication options available on the request/response chain identified by the Request-URI. This method allows the client to determine the options and/or requirements associated with a resource, or the capabilities of a server, without implying a resource action or initiating a resource retrieval.
+- Information provided includes:
+  - HTTP methods
+  - request query string schema type
+  - request payload schema type
+  - response payload schema type
 
 HEAD ???
 --
